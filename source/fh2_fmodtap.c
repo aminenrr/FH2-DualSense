@@ -1,4 +1,4 @@
-// FH2 FMOD tap v4.1 - original code, MIT licensed.
+// FH2 FMOD tap v4.1 - written with AI assistance, MIT licensed.
 // Loaded into azimuth.exe. Uses the FMOD Studio 1.03 + Core API compiled into
 // forza_durango_release_final.exe (1.0.0.64). It catches the game's Studio
 // system handle (hooks System::setListenerAttributes and System::getEvent),
