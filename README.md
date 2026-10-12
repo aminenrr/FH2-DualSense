@@ -5,7 +5,9 @@ Adaptive triggers and HD haptics on a PlayStation DualSense controller for Forza
 * **Adaptive triggers:** the game's own trigger rumble levels are read from Azimuth and sent to the DualSense triggers.
 * **HD haptics:** the car's engine, road, skid, impact and shift sounds are captured from the game's audio engine and played through the DualSense haptic actuators.
 * **Small control window:** turn each feature on or off, tune haptics strength, and launch the game from the same window.
-   ![FH2 DualSense window](screenshot.png)
+  
+   ![FH2 DualSense window](screenshot.jpg)
+  
 ## Requirements
 
 * Windows with Python 3 (python.org, tick "Add python.exe to PATH").
