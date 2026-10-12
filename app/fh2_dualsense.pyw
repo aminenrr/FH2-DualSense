@@ -1,5 +1,5 @@
 """FH2 DualSense - mod menu for Forza Horizon 2 (Azimuth).
-Adaptive triggers + game-sound haptics in one window. Original code. MIT licensed."""
+Adaptive triggers + game-sound haptics in one window. Written with AI assistance. MIT licensed."""
 import os, sys, json, queue, subprocess, threading, time
 import tkinter as tk
 from tkinter import filedialog, ttk
