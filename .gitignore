@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+app/settings.json
+app/.deps_ok
+*.lnk
+fmodtap_log.txt
