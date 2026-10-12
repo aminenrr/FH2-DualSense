@@ -57,6 +57,12 @@ This command is a starting point, so adjust flags for your toolchain if it compl
 
 This project is not affiliated with or endorsed by Microsoft, Playground Games, Sony or the Azimuth developers. It contains no game files and no Azimuth files. You need your own legitimate copy of the game and Azimuth. Use it at your own risk.
 
+## AI disclosure
+
+This project was built with the help of AI (Claude by Anthropic). AI was used to go through the game files and Azimuth to look for ways to hook into the game, such as reading the trigger rumble values and capturing the car sounds, and to help write and debug the code. I tested the mod myself on my own setup.
+
+The hooks depend on specific versions (Azimuth 0.9.x and game build 1.0.0.64), so other versions may not work. AI written code can contain mistakes, so please read the code before running it, especially because the launcher asks for administrator rights.
+
 ## License
 
 MIT, see `LICENSE`.
