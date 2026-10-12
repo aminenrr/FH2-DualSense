@@ -12,6 +12,7 @@ Adaptive triggers and HD haptics on a PlayStation DualSense controller for Forza
 
 * Windows with Python 3 (python.org, tick "Add python.exe to PATH").
 * A DualSense controller connected by **USB cable** (haptics need USB).
+* An xinput emulator so the dualsense work with the game (steam input or DS4win or DSX ... )
 * Azimuth and your own copy of Forza Horizon 2, game build 1.0.0.64. Other builds are not supported, and the mod will say so in its log instead of hooking.
 * In Windows Sound settings: Speakers (DualSense Wireless Controller) > Configure > Quadraphonic, volume 100.
 
