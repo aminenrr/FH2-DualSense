@@ -1,6 +1,6 @@
 """
 FH2 DualSense Haptics v4.3 - game-sound haptics for Forza Horizon 2 (Azimuth).
-Written with AI assistance. MIT licensed.
+Original code, personal use.
 
 fh2_fmodtap.dll is loaded into the game and listens to the game's OWN car
 sound buses inside FMOD (engine, tyre roll per surface, skids, gravel

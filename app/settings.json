@@ -1,0 +1,16 @@
+{
+  "azimuth_path": "",
+  "anthem_path": "D:\\Games\\PC GAMES\\Forza Horizon 2\\Game\\Anthem_1.0.0.64_x64__8wekyb3d8bbwe",
+  "launch_game": true,
+  "launch_mode": "azimuth",
+  "triggers_on": true,
+  "haptics_on": true,
+  "haptics": {
+    "master": 1.0,
+    "boost": 2.5,
+    "rumble_gain": 1.0,
+    "engine": 1.2,
+    "road": 2.5,
+    "replace_rumble": true
+  }
+}

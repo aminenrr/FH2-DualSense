@@ -1,5 +1,5 @@
 """FH2 DualSense - mod menu for Forza Horizon 2 (Azimuth).
-Adaptive triggers + game-sound haptics in one window. Written with AI assistance. MIT licensed."""
+Adaptive triggers + game-sound haptics in one window. Original code, personal use."""
 import os, sys, json, queue, subprocess, threading, time
 import tkinter as tk
 from tkinter import filedialog, ttk
@@ -19,6 +19,7 @@ except Exception:
 
 DEFAULTS = {
     "azimuth_path": "",
+    "anthem_path": "",             # Anthem_1.0.0.64_x64__8wekyb3d8bbwe folder, for the PlayStation buttons
     "launch_game": True,
     "launch_mode": "azimuth",      # azimuth | dlc | none
     "triggers_on": True,
@@ -233,6 +234,21 @@ class App:
         tk.Button(row, text="Browse", command=self.browse, bg=CARD2, fg=FG, relief="flat",
                   activebackground="#273046", activeforeground=FG, font=(FONT, 9), padx=10).pack(side="right")
 
+        ps = self.card(body, "PlayStation buttons in the game")
+        self.ps_lbl = tk.Label(ps, text="Swaps the Xbox prompts and the Settings / loading-screen controller "
+                               "for PlayStation ones. Close the game first.", bg=CARD, fg=DIM,
+                               font=(FONT, 9), anchor="w", justify="left", wraplength=440)
+        self.ps_lbl.pack(fill="x", pady=(2, 6))
+        self.anthem_lbl = tk.Label(ps, text=self.short(self.cfg.get("anthem_path", "")) or
+                                   "Anthem folder not set (you'll be asked when you press a button)",
+                                   bg=CARD, fg=FG if self.cfg.get("anthem_path") else DIM, font=(FONT, 9), anchor="w")
+        self.anthem_lbl.pack(fill="x", pady=(0, 6))
+        row = tk.Frame(ps, bg=CARD); row.pack(fill="x")
+        for text, cmd in [("Install PlayStation buttons", "install"), ("Restore Xbox buttons", "uninstall")]:
+            tk.Button(row, text=text, command=lambda c=cmd: self.prompts(c), bg=CARD2, fg=FG, relief="flat",
+                      activebackground="#273046", activeforeground=FG, font=(FONT, 9), padx=10).pack(side="left", padx=(0, 8))
+        self.root.after(300, lambda: self.prompts("status", quiet=True))
+
         lg = tk.Frame(body, bg=BG); lg.pack(fill="x", padx=18, pady=(0, 14))
         self.log = tk.Text(lg, bg="#0a0d13", fg=DIM, font=("Consolas", 9), height=8, relief="flat",
                            wrap="word", state="disabled", padx=8, pady=6)
@@ -313,6 +329,58 @@ class App:
                 self.v_mode.set("dlc")
             self.path_lbl.config(text=self.short(self.game_dir()), fg=FG)
             self.save()
+
+    # ---------------------------------------------------------------- PlayStation prompts
+    def ask_anthem(self, inst):
+        """Ask for the Anthem_1.0.0.64_x64__8wekyb3d8bbwe folder. Returns the game root or None."""
+        start = self.cfg.get("anthem_path") or self.game_dir() or os.path.expanduser("~")
+        while True:
+            p = filedialog.askdirectory(title="Pick your Anthem_1.0.0.64_x64__8wekyb3d8bbwe game folder",
+                                        initialdir=start, mustexist=True)
+            if not p:
+                return None
+            root = inst.find_root(os.path.normpath(p))
+            if root:
+                self.cfg["anthem_path"] = root
+                self.anthem_lbl.config(text=self.short(root), fg=FG)
+                self.save()
+                return root
+            self.say("That folder has no Mount\\media\\UI.zip. Pick the Anthem_1.0.0.64_x64__8wekyb3d8bbwe folder.")
+            start = p
+
+    def prompts(self, cmd, quiet=False):
+        try:
+            sys.path.insert(0, os.path.join(os.path.dirname(HERE), "prompts"))
+            import fh2_ps_install as inst
+        except Exception as e:
+            if not quiet:
+                self.say(f"PlayStation buttons: {e}")
+            return
+        if quiet:   # startup status check: only use the folder saved earlier, never ask
+            saved = self.cfg.get("anthem_path", "")
+            root = inst.find_root(saved) if saved else None
+            if not root:
+                return
+        else:
+            root = self.ask_anthem(inst)
+            if not root:
+                self.say("Cancelled. Nothing was changed.")
+                return
+        def work():
+            out = (lambda m: None) if quiet else (lambda m: self.root.after(0, self.say, m))
+            try:
+                if not quiet:
+                    out("Game: " + root)
+                    getattr(inst, cmd)(root, out)
+                state = inst.status(root, lambda m: None)
+                txt = "Installed: PlayStation buttons are on." if state else "Not installed: the game shows Xbox buttons."
+                self.root.after(0, lambda: self.ps_lbl.config(text=txt + " Close the game before changing this.",
+                                                               fg=GREEN if state else DIM))
+            except PermissionError:
+                out("Couldn't write the game files. Close the game and try again.")
+            except Exception as e:
+                out(f"PlayStation buttons: {e}")
+        threading.Thread(target=work, daemon=True).start()
 
     # ---------------------------------------------------------------- play / stop
     def toggle(self):

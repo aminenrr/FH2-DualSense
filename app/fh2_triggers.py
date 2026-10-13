@@ -1,6 +1,6 @@
 """
 FH2 DualSense Triggers v2 - adaptive triggers for Forza Horizon 2 (Azimuth).
-Written with AI assistance. Uses the game's OWN trigger rumble (brake lock-up / ABS on L2,
+Original code. Uses the game's OWN trigger rumble (brake lock-up / ABS on L2,
 wheelspin on R2), read live from Azimuth, on top of a resting brake/gas feel.
 If the game isn't running or can't be hooked, falls back to the basic mode.
 Only trigger bytes are written to the controller; rumble is left alone.
