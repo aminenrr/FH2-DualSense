@@ -1,0 +1,1317 @@
+{
+ "ControllerIcons.zip": {
+  "path": "Mount/media/ui/textures/data_bound/ControllerIcons.zip",
+  "vanilla_sha256": "442962c5737ddbd87a1abbd09b6daf1846c216804b73495d23c9516bde6c90b8",
+  "entries": {
+   "Controller_A.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "cross",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_B.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "circle",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_DPadDown.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "dpad_down",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_DPadLeft.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "dpad_left",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_DPadLeftRight.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "dpad_leftright",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_DPadRight.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "dpad_right",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_DPadUp.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "dpad_up",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_DPadUpDown.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "dpad_updown",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_L3.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "l3",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_LB.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "l1",
+    "bbox": [
+     0,
+     5,
+     32,
+     27
+    ]
+   },
+   "Controller_LeftThumb.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "lstick",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_LeftThumb_Down.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "lstick_down",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_LeftThumb_Left.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "lstick_left",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_LeftThumb_LeftRight.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "lstick_leftright",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_LeftThumb_Right.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "lstick_right",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_LeftThumb_Up.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "lstick_up",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_LeftThumb_UpDown.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "lstick_updown",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_LT.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "l2",
+    "bbox": [
+     5,
+     0,
+     27,
+     32
+    ]
+   },
+   "Controller_MENU.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "options",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_R3.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "r3",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_RB.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "r1",
+    "bbox": [
+     0,
+     5,
+     32,
+     27
+    ]
+   },
+   "Controller_RightThumb.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "rstick",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_RightThumb_Down.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "rstick_down",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_RightThumb_Left.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "rstick_left",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_RightThumb_LeftRight.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "rstick_leftright",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_RightThumb_Right.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "rstick_right",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_RightThumb_Up.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "rstick_up",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_RightThumb_UpDown.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "rstick_updown",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_RT.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "r2",
+    "bbox": [
+     5,
+     0,
+     27,
+     32
+    ]
+   },
+   "Controller_VIEW.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "touchpad",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_X.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "square",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Controller_Y.swatchbin": {
+    "layout": "32x32_m1_4096",
+    "style": "hud",
+    "art": "triangle",
+    "bbox": [
+     0,
+     0,
+     32,
+     32
+    ]
+   },
+   "Large/Controller_A.swatchbin": {
+    "layout": "128x128_m4_44032",
+    "style": "hud",
+    "art": "cross",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_B.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "circle",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_DPadDown.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "dpad_down",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_DPadLeft.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "dpad_left",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_DPadLeftRight.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "dpad_leftright",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_DPadRight.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "dpad_right",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_DPadUp.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "dpad_up",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_DPadUpDown.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "dpad_updown",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_L3.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "l3",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_LB.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "l1",
+    "bbox": [
+     0,
+     21,
+     128,
+     106
+    ]
+   },
+   "Large/Controller_LeftThumb.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "lstick",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_LeftThumb_Down.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "lstick_down",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_LeftThumb_Left.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "lstick_left",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_LeftThumb_LeftRight.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "lstick_leftright",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_LeftThumb_Right.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "lstick_right",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_LeftThumb_Up.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "lstick_up",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_LeftThumb_UpDown.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "lstick_updown",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_LT.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "l2",
+    "bbox": [
+     21,
+     0,
+     107,
+     128
+    ]
+   },
+   "Large/Controller_Menu.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "options",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_R3.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "r3",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_RB.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "r1",
+    "bbox": [
+     0,
+     21,
+     128,
+     106
+    ]
+   },
+   "Large/Controller_RightThumb.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "rstick",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_RightThumb_Down.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "rstick_down",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_RightThumb_Left.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "rstick_left",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_RightThumb_LeftRight.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "rstick_leftright",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_RightThumb_Right.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "rstick_right",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_RightThumb_Up.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "rstick_up",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_RightThumb_UpDown.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "rstick_updown",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_RT.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "r2",
+    "bbox": [
+     21,
+     0,
+     107,
+     128
+    ]
+   },
+   "Large/Controller_View.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "touchpad",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_X.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "square",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Large/Controller_Y.swatchbin": {
+    "layout": "128x128_m1_32768",
+    "style": "hud",
+    "art": "triangle",
+    "bbox": [
+     0,
+     0,
+     128,
+     128
+    ]
+   },
+   "Medium/Controller_A.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "cross",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_B.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "circle",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_DPadDown.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "dpad_down",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_DPadLeft.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "dpad_left",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_DPadLeftRight.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "dpad_leftright",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_DPadRight.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "dpad_right",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_DPadUp.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "dpad_up",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_DPadUpDown.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "dpad_updown",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_L3.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "l3",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_LB.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "l1",
+    "bbox": [
+     0,
+     10,
+     64,
+     53
+    ]
+   },
+   "Medium/Controller_LeftThumb.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "lstick",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_LeftThumb_Down.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "lstick_down",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_LeftThumb_Left.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "lstick_left",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_LeftThumb_LeftRight.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "lstick_leftright",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_LeftThumb_Right.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "lstick_right",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_LeftThumb_Up.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "lstick_up",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_LeftThumb_UpDown.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "lstick_updown",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_LT.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "l2",
+    "bbox": [
+     10,
+     0,
+     54,
+     64
+    ]
+   },
+   "Medium/Controller_Menu.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "options",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_R3.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "r3",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_RB.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "r1",
+    "bbox": [
+     0,
+     10,
+     64,
+     53
+    ]
+   },
+   "Medium/Controller_RightThumb.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "rstick",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_RightThumb_Down.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "rstick_down",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_RightThumb_Left.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "rstick_left",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_RightThumb_LeftRight.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "rstick_leftright",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_RightThumb_Right.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "rstick_right",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_RightThumb_Up.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "rstick_up",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_RightThumb_UpDown.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "rstick_updown",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_RT.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "r2",
+    "bbox": [
+     10,
+     0,
+     54,
+     64
+    ]
+   },
+   "Medium/Controller_View.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "touchpad",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_X.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "square",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   },
+   "Medium/Controller_Y.swatchbin": {
+    "layout": "64x64_m1_32768",
+    "style": "hud",
+    "art": "triangle",
+    "bbox": [
+     0,
+     0,
+     64,
+     64
+    ]
+   }
+  }
+ },
+ "Help_Buttons.zip": {
+  "path": "Mount/media/ui/textures/data_bound/Help_Buttons.zip",
+  "vanilla_sha256": "ebfe6c2e626aa936c40e5d207cf53c54b337de7157232bb3c3bdcf340de0ad05",
+  "entries": {
+   "Button_A.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help",
+    "art": "cross",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   },
+   "Button_A_Dark.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help_dark",
+    "art": "cross",
+    "bbox": [
+     0,
+     0,
+     22,
+     22
+    ]
+   },
+   "Button_A_Lg.swatchbin": {
+    "layout": "46x46_m1_4096",
+    "style": "help",
+    "art": "cross",
+    "bbox": [
+     1,
+     1,
+     45,
+     45
+    ]
+   },
+   "Button_B.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help",
+    "art": "circle",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   },
+   "Button_Back.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help",
+    "art": "touchpad",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   },
+   "Button_Back_Lg.swatchbin": {
+    "layout": "46x46_m1_4096",
+    "style": "help",
+    "art": "touchpad",
+    "bbox": [
+     1,
+     1,
+     45,
+     45
+    ]
+   },
+   "Button_LB.swatchbin": {
+    "layout": "32x22_m1_1024",
+    "style": "help",
+    "art": "l1",
+    "bbox": [
+     1,
+     1,
+     31,
+     21
+    ]
+   },
+   "Button_LT.swatchbin": {
+    "layout": "32x22_m1_1024",
+    "style": "help",
+    "art": "l2",
+    "bbox": [
+     0,
+     1,
+     31,
+     21
+    ]
+   },
+   "Button_RB.swatchbin": {
+    "layout": "32x22_m1_1024",
+    "style": "help",
+    "art": "r1",
+    "bbox": [
+     1,
+     1,
+     31,
+     21
+    ]
+   },
+   "Button_RT.swatchbin": {
+    "layout": "32x22_m1_1024",
+    "style": "help",
+    "art": "r2",
+    "bbox": [
+     1,
+     1,
+     32,
+     21
+    ]
+   },
+   "Button_Start.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help",
+    "art": "options",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   },
+   "Button_X.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help",
+    "art": "square",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   },
+   "Button_X_Lg.swatchbin": {
+    "layout": "46x46_m1_4096",
+    "style": "help",
+    "art": "square",
+    "bbox": [
+     0,
+     0,
+     45,
+     45
+    ]
+   },
+   "Button_Y.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help",
+    "art": "triangle",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   },
+   "Button_Y_Light.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help_light",
+    "art": "triangle",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   },
+   "DPad_D.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help",
+    "art": "dpad_down",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   },
+   "DPad_L.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help",
+    "art": "dpad_left",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   },
+   "DPad_LR.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help",
+    "art": "dpad_leftright",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   },
+   "DPad_R.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help",
+    "art": "dpad_right",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   },
+   "DPad_U.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help",
+    "art": "dpad_up",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   },
+   "DPad_UD.swatchbin": {
+    "layout": "22x22_m1_1024",
+    "style": "help",
+    "art": "dpad_updown",
+    "bbox": [
+     1,
+     1,
+     21,
+     21
+    ]
+   }
+  }
+ },
+ "UI_Symbols.zip": {
+  "path": "Mount/media/ui/textures/data_bound/UI_Symbols.zip",
+  "vanilla_sha256": "6d29abaa86ede19b1051199774a4faa9aaedc93d07c81f283f5994582d3070a4",
+  "entries": {
+   "Anthem_Controller_Initial_Experience.swatchbin": {
+    "layout": "512x512_m1_262144",
+    "style": "diagram",
+    "art": "dualsense_loading.png"
+   },
+   "Help_Controller.swatchbin": {
+    "layout": "512x512_m1_262144",
+    "style": "diagram",
+    "art": "dualsense_settings.png"
+   }
+  }
+ }
+}

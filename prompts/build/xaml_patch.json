@@ -1,0 +1,104 @@
+{
+ "zip": "UI.zip",
+ "path": "Mount/media/UI.zip",
+ "vanilla_sha256": "33ecf0453f0d18f20408317c2bab7f0413be6e08e2b8188398c69930f8dcfa34",
+ "entry": "Resources/Anthem/Global_Controls.xaml",
+ "note": "Moves the Settings > Controls label pointer lines so each label points at the right DualSense button. Each item: line number, sha1 of the original line (whitespace-trimmed, for checking only), our new line.",
+ "replace": [
+  [
+   781,
+   "61412ce68955649af4a782195bd22d38b8e12193",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 0,65 40,65 108,134\" />"
+  ],
+  [
+   785,
+   "2df91895bd580aae62865d491a72767e28608ace",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 0,156 55,156 84,170\" />"
+  ],
+  [
+   789,
+   "e606fe6f7ffe95eca6f6407c2ab0aca66c2a2f2d",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 183,350 183,490 176,490\" />"
+  ],
+  [
+   790,
+   "ccaab076d219ac7f57f2b2d52f7ef33a314ad238",
+   "<local:FZTextBlock Canvas.Right=\"-169\" Canvas.Top=\"472\" Text=\"{Binding LThumbString}\" Style=\"{StaticResource ControllerLabelLeftSideStyle}\"/>"
+  ],
+  [
+   793,
+   "c41f62d6fdff33476836c10d67f83291fd83737b",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 0,243 45,243 66,222 102,222\" />"
+  ],
+  [
+   794,
+   "0057fad92dcac499ed65c0d59c3c5ce874025fdf",
+   "<local:FZTextBlock Canvas.Right=\"5\" Canvas.Top=\"225\" Text=\"{Binding DPadUpString}\" Style=\"{StaticResource ControllerLabelLeftSideStyle}\" Height=\"50\"/>"
+  ],
+  [
+   797,
+   "90756dd15925127505023a2717cfc1dbb8ed1960",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 0,304 40,304 75,256\" />"
+  ],
+  [
+   798,
+   "784e64a789aa643ba5b5cea68447e5c4e81441d3",
+   "<local:FZTextBlock Canvas.Right=\"5\" Canvas.Top=\"286\" Text=\"{Binding DPadLeftRightString}\" Style=\"{StaticResource ControllerLabelLeftSideStyle}\" Height=\"50\"/>"
+  ],
+  [
+   801,
+   "74e6bf752d14bb821f8967b6885147cfb2516e16",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 0,368 60,368 114,290\" />"
+  ],
+  [
+   802,
+   "05ef0df29c2205feb59173f3138707b6b42181f0",
+   "<local:FZTextBlock Canvas.Right=\"5\" Canvas.Top=\"350\" Text=\"{Binding DPadDownString}\" Style=\"{StaticResource ControllerLabelLeftSideStyle}\" />"
+  ],
+  [
+   805,
+   "f239b791b6d535c244f8938efa8670f1ef3fc2da",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 216,35 228,35 228,205\" />"
+  ],
+  [
+   811,
+   "45078c85546adb2557b4ea7ab054c38ed5db9f6a",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 302,35 296,35 296,105 359,179\" />"
+  ],
+  [
+   815,
+   "704de86d42f177781a3e3b20936ffa3740badaad",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 512,65 476,65 407,134\" />"
+  ],
+  [
+   819,
+   "54ccc06babe22351a8a3eeaf1c1fb80af0e4ad8e",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 512,156 462,156 435,170\" />"
+  ],
+  [
+   823,
+   "b704c517cd0fdf861bc11074dd32389b7853fbd3",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 512,209 430,209 414,215\" />"
+  ],
+  [
+   827,
+   "323716b074e4aa0e85c82455c1c2f1dce2556804",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 512,240 470,240 447,249\" />"
+  ],
+  [
+   831,
+   "a4db7bef1ce17446edcf4b6bfbd88d5825aa24fb",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 512,269 452,269 416,266 383,256\" />"
+  ],
+  [
+   835,
+   "be15ed0dcf8728e6f2fff213d119d71257ec9857",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 512,297 440,297 412,289\" />"
+  ],
+  [
+   839,
+   "d2cd0051cc9fb4920d42c1fd459c4476e918bbfb",
+   "<Path Style=\"{StaticResource A_ControllerLabel_Path}\" Data=\"M 512,362 380,362 357,336\" />"
+  ]
+ ]
+}
