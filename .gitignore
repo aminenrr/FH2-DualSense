@@ -4,3 +4,4 @@ app/settings.json
 app/.deps_ok
 *.lnk
 fmodtap_log.txt
+steamdeck/FH2DualSense.dll

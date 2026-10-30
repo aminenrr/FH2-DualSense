@@ -1,5 +1,7 @@
 # FH2 DualSense
 
+> **Steam Deck / Linux (Proton):** see [`steamdeck/`](steamdeck/README.md): adaptive triggers over Bluetooth or USB, HD haptics over USB, PlayStation prompts, on runtime versions 0.9.10 and 1.0.1. Unofficial and unsupported; use at your own risk.
+
 Adaptive triggers, HD haptics and PlayStation button prompts on a DualSense controller for Forza Horizon 2 running through Azimuth.
 
 * **Adaptive triggers:** the game's own trigger rumble levels are read from Azimuth and sent to the DualSense triggers.
